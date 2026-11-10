@@ -1,87 +1,119 @@
+# 🍋 Little Lemon Restaurant
 
-# Little Lemon Restaurant
+A modern, responsive restaurant website built with **React.js** as part of the Meta Front-End Developer Capstone Project.
 
-## Project Overview
+Little Lemon allows customers to explore restaurant information and book tables through an interactive reservation system with form validation and booking confirmation.
 
-Little Lemon is a responsive restaurant website built with React for the Meta Front-End Developer Capstone project.
+## ✨ Features
 
-The application allows customers to browse restaurant information and make table reservations.
+- 📱 **Responsive Design** – Works across desktop, tablet, and mobile devices.
+- 🏠 **Restaurant Homepage** – Displays restaurant information and highlights.
+- 📅 **Table Reservations** – Book a table by selecting a date and time.
+- 👥 **Guest Selection** – Choose the number of guests.
+- 🎉 **Special Occasions** – Select an occasion for your reservation.
+- ✅ **Form Validation** – Prevents invalid reservation submissions.
+- 🕒 **Available Time Slots** – Displays available booking times using a simulated API.
+- 🎯 **Booking Confirmation** – Provides confirmation after successful booking.
+- ⚠️ **Error Handling** – Handles unsuccessful reservation attempts.
+- ♿ **Accessibility** – Uses semantic HTML and accessible form labels.
 
-## Features
+## 🛠️ Technologies Used
 
-- Responsive homepage with restaurant information
-- Navigation between the homepage and booking page
-- Reservation form with date, time, guest count, and occasion
-- Available reservation times provided by a simulated API
-- Form validation to prevent invalid reservations
-- Booking confirmation page
-- Error handling for unsuccessful reservations
-- Accessible form labels and semantic HTML
-- Automated tests using React Testing Library and Jest
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- React Router DOM
+- React Hooks (useState, useEffect, useReducer)
+- Jest
+- React Testing Library
+- Git & GitHub
 
-## Technologies Used
+## 🚀 Getting Started
 
-- React
-- JavaScript
-- HTML and CSS
-- React Router
-- React Hooks (useState, useReducer, useEffect)
-- Jest and React Testing Library
-- Git and GitHub
+Follow these steps to run the project locally.
 
-## Installation and Setup
+### 1. Clone the Repository
 
-1. Clone the repository:
+```bash
+git clone https://github.com/AhmedRaza2007/little-lemon.git
+```
 
-   git clone https://github.com/Hallie-M/Little-Lemon.git
+### 2. Navigate to the Project Directory
 
-2. Navigate into the project folder:
+```bash
+cd little-lemon
+```
 
-   cd Little-Lemon
+### 3. Install Dependencies
 
-3. Install project dependencies:
+```bash
+npm install
+```
 
-   npm install
+### 4. Start the Development Server
 
-4. Start the development server:
+```bash
+npm start
+```
 
-   npm start
+### 5. Open in Browser
 
-5. Open http://localhost:3000 in your browser.
+Visit:
 
-## Running Tests
+```text
+http://localhost:3000
+```
 
-Run the automated tests with:
+## 🧪 Running Tests
 
+Run the automated tests using:
+
+```bash
 npm test
+```
 
-## Reservation Instructions
+## 📖 How to Make a Reservation
 
 1. Open the Little Lemon website.
-2. Select Reservations from the navigation.
-3. Choose a valid reservation date.
-4. Select an available reservation time.
+2. Navigate to the Reservations section.
+3. Select your preferred date.
+4. Choose an available time slot.
 5. Enter the number of guests.
-6. Choose the occasion.
+6. Select the occasion.
 7. Submit the reservation form.
-8. View the booking confirmation page.
+8. View your booking confirmation.
 
-## API Information
+## 🔌 API Information
 
-The project uses a simulated reservation API provided for the Meta Front-End Developer Capstone coursework.
+This project uses a simulated reservation API for retrieving available booking times and submitting reservations.
 
-The API supplies available reservation times and simulates reservation submissions.
+**Note:** No live restaurant reservation backend is connected.
 
-No live restaurant reservation backend is connected.
+## 🎓 Learning Outcomes
 
+Through this project, I practiced:
 
+- Building reusable React components.
+- Managing component state with React Hooks.
+- Handling forms and user input.
+- Implementing form validation.
+- Working with React Router.
+- Writing automated tests.
+- Creating responsive user interfaces.
+- Using Git and GitHub for version control.
 
-## Author
+## 👨‍💻 Author
 
-Halimah Muhammad
+**Ahmed Raza**
 
-GitHub: [Hallie-M](https://github.com/Hallie-M)
+- GitHub: [@AhmedRaza2007](https://github.com/AhmedRaza2007)
 
-Meta Front-End Developer Professional Certificate
+## 📜 Acknowledgements
 
-Developed as part of the Meta Front-End Developer Professional Certificate Capstone Project.
+Developed as part of the **Meta Front-End Developer Professional Certificate – Capstone Project**.
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
+
